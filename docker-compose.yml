@@ -1,0 +1,10 @@
+version: '3'
+services:
+  docker-for-wslg:
+    build: .
+    environment:
+      - DISPLAY=:0
+    restart: always
+    tty: true
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
