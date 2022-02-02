@@ -25,3 +25,6 @@ You can use the following commands to test WSLg with Docker Container.
 apt install x11-apps
 xeyes
 ```
+
+### result
+![image](https://user-images.githubusercontent.com/7000978/152202881-6c295dc5-977f-4826-91b6-875d76bcd2e1.png)
