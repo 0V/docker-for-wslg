@@ -1,6 +1,6 @@
 # docker-for-wslg
 
-This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) with Docker Container.  
+This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) with Docker Container (Ubuntu 20.04).  
 
 ## Require
 
