@@ -1,6 +1,6 @@
 # docker-for-wslg
 
-This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) with Docker Container (Ubuntu 20.04).  
+This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) on Docker Container (Ubuntu 20.04).  
 
 ## Require
 
@@ -19,7 +19,7 @@ docker-compose exec docker-for-wslg /bin/bash
 
 ## Try!
 
-You can use the following commands to test WSLg with Docker Container.
+You can use the following commands to test WSLg on Docker Container.
 
 ```
 apt install x11-apps
