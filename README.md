@@ -5,7 +5,7 @@ This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) on D
 ## Require
 
 - Windows 11
-- WSL2
+- WSL2 (latest)
 - Docker Desktop 
   - docker
   - docker-compose
