@@ -4,7 +4,11 @@ services:
     build: .
     environment:
       - DISPLAY=:0
+      - WAYLAND_DISPLAY=wayland-0
+      - XDG_RUNTIME_DIR=/mnt/wslg/runtime-di
+      - PULSE_SERVER=/mnt/wslg/PulseServer
     restart: always
     tty: true
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
