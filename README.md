@@ -22,7 +22,7 @@ docker-compose exec docker-for-wslg /bin/bash
 You can use the following commands to test WSLg on Docker Container.
 
 ```
-apt install x11-apps
+apt install -y x11-apps
 xeyes
 ```
 
