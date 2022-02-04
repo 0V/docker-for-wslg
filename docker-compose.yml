@@ -3,10 +3,10 @@ services:
   docker-for-wslg:
     build: .
     environment:
-      - DISPLAY=:0
-      - WAYLAND_DISPLAY=wayland-0
-      - XDG_RUNTIME_DIR=/mnt/wslg/runtime-di
-      - PULSE_SERVER=/mnt/wslg/PulseServer
+      - DISPLAY=$DISPLAY
+      - WAYLAND_DISPLAY=$WAYLAND_DISPLAY
+      - XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
+      - PULSE_SERVER=$PULSE_SERVER
     restart: always
     tty: true
     volumes:
