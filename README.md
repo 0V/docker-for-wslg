@@ -2,6 +2,9 @@
 
 This is a minimal template for using WSLg (Windows Subsystem for Linux GUI) on Docker Container (Ubuntu 20.04).  
 
+If you want to use GPU together, use the following template.  
+[0V/gpu-wslg](https://github.com/0V/gpu-wslg)
+
 ## Require
 
 - Windows 11
